@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs, { init } from "@emailjs/browser";
+import "./index.css"; //import CSS file
 
 function App() {
   init("x5yjcbpnXXMnUbCjK");
@@ -34,15 +35,15 @@ function App() {
         <h1 className="text-center">Automate Form</h1>
         <div className="form-row">
           <div className="form-group col-md-6">
-            <label htmlFor="First Name">First Name</label>
+            <label htmlFor="First Name" className="black-text" First Name </label>
             <input type="text" className="form-control" name="firstname" />
           </div>
           <div className="form-group col-md-6">
-            <label htmlFor="Last Name">Last Name</label>
+            <label htmlFor="Last Name" className="black-text">Last Name</label>
             <input type="text" className="form-control" name="lastname" />
           </div>
           <div className="form-group col-12">
-            <label htmlFor="inputEmail">Email</label>
+            <label htmlFor="inputEmail" className="dark-blue-text">Email</label>
             <input
               type="text"
               className="form-control"
@@ -52,7 +53,7 @@ function App() {
             />
           </div>{" "}
           <div className="form-group col-md-6">
-            <label htmlFor="message">message</label>
+            <label htmlFor="message" className="dark-blue">message</label>
             <textarea
               type="text"
               className="form-control"
