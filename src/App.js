@@ -35,7 +35,7 @@ function App() {
         <h1 className="text-center">Automate Form</h1>
         <div className="form-row">
           <div className="form-group col-md-6">
-            <label htmlFor="First Name" className="black-text" First Name </label>
+            <label htmlFor="First Name" className="black-text">First Name</label>
             <input type="text" className="form-control" name="firstname" />
           </div>
           <div className="form-group col-md-6">
